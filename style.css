@@ -72,6 +72,14 @@ body {
   border-radius: 0 0 40px 40px;
  }
 
+ .botao-ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+ }
+ .abas-conteudos.ativo{
+    display: block;
+ }
+
 @media screen and (mid-width:768px){
     .botoes{
         display: flex;
